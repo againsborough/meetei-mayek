@@ -40,7 +40,7 @@ The sample TeX file is [here](meetei-script.tex). The PDF output generated throu
 
 ### Typesetting in HTML and Markdown
 
-There are two ways to typeset Meetei Script in HTML. The first is to directly use the script which is possible if you already have a Meetei Mayek keyboard or just copy-paste from somewhere else. If this is not feasible, the second method is to (you guess it right!) use Unicode. For this simply use the usual syntax for entering Unicode code points in HTML. Suppose you want to enter ꯔ which is coded as U+ABD4, you write in the form `&#xY;` where Y is replaced by ABD4. See a sample HTML filel [here](meetei-script.html).
+There are two ways to typeset Meetei Script in HTML. The first is to directly use the script which is possible if you already have a Meetei Mayek keyboard or just copy-paste from somewhere else. If this is not feasible, the second method is to (you guess it right!) use Unicode. For this simply use the usual syntax for entering Unicode code points in HTML. Suppose you want to enter ꯔ which is coded as U+ABD4, you write in the form `&#xY;` where Y is replaced by ABD4. See a sample HTML file [here](meetei-script.html).
 
 Typesetting in Markdown is just the same as in HTML. However, be warned that I have only verified this on GitHub Markdown although there is no reason why it shouldn't work elsewhere.
 
