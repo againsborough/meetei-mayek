@@ -34,6 +34,10 @@ Using the package `inputech` with the option `utf8` does not help since the scri
 \end{document}
 ```
 
+Compiling the above code with the usual `pdfLaTeX` shall lead to fatal error. Compilation shall be done using `LuaTeX` or `XeTeX` (because `fontspec` requires them).
+
+The sample TeX file is [here](meitei-script.tex). The PDF output generated through LuaTeX compilation is [here](meitei-script.pdf).
+
 ### Feedback
 
 Any queries, comments, bug reports or suggestions shall be directed to [ronhuidrom@gmail.com](mailto:ronhuidrom@gmail.com).
